@@ -1,0 +1,39 @@
+Solution Description:
+
+- The script reads data from the "Input Data sheet" in the provided Excel file.  
+- It extracts relevant group names from the "Additional comments" column.  
+- The script counts the occurrences of each unique group and displays them in tabular format.  
+- The output matches the expected format as provided in the test instructions.  
+
+GitHub Repository Link:  
+
+https://github.com/ShaliniMoorthi/Digitaltask 
+
+Test Results:  
+
+Below is the test output from running the script:  
+
+Available columns: Index(['Assignment group', 'Number', 'Item', 'Stage', 'Due date', 'Quantity',
+       'Additional comments', 'Comments and Work notes'],
+      dtype='object')
+                     Group name  Number of occurrences
+0                Huntingdon GMs                      1
+1                   GCP Team FR                      1
+2                 SML Group GMs                      1
+3                   Eastend GMs                      2
+4   Huntingdon And LiZ Area GMs                      1
+5                           86A                      1
+6                 Okta_FR_Local                      1
+7            Okta-Global_YOOBIC                      1
+8          Darlington Group GMs                      1
+9                 Gurgaon-Shops                      2
+10        Hillingdon West Group                      1
+11   Coffee subs & loyalty team                      2
+12                  Revatta_SSO                      1
+13                     Electron                      1
+14                  TM-Electron                      1
+15               Partners in GR                      2
+16                  JOP Team FR                      1
+17       Catering services team                      1
+
+
